@@ -5,6 +5,15 @@ module.exports = {
   presets: ['@expo/next-adapter/babel'],
   plugins: [
     "@emotion",
-    ["@babel/plugin-proposal-class-properties", { loose: true }]
+    ["@babel/plugin-proposal-class-properties", { loose: true }],
+    ["module-resolver", {
+      root: ['./src'],
+      alias: {
+        '@src': './src',
+        '@comp': './src/components',
+        '@static': './public/static',
+        '@styles': './src/styles',
+      }
+    }],
   ]
 };
