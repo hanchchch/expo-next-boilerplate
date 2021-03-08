@@ -1,14 +1,13 @@
-// @generated: @expo/next-adapter@2.1.61
 import React from 'react';
-import styles from './styles';
-import { Text, View } from 'react-native';
-import Button from '@comp/common/atoms/Button';
+import { useRouter } from 'next/router';
+import Home from "@mobile/Home";
+
 
 export default function App() {
+  const router = useRouter();
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Welcome to Expo + Next.js 👋</Text>
-      <Button />
-    </View>
+    <div>
+      <Home navigation={router}/>
+    </div>
   );
 }

@@ -10,6 +10,7 @@ module.exports = {
       root: ['./src'],
       alias: {
         '@src': './src',
+        '@mobile': './src/mobile',
         '@comp': './src/components',
         '@static': './public/static',
         '@styles': './src/styles',
