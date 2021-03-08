@@ -5,11 +5,15 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "build": "next build"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel": "^6.23.0",
     "expo": "~40.0.0",
     "expo-status-bar": "~1.0.3",
+    "next": "^10.0.8",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
@@ -17,9 +21,14 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "@emotion/babel-plugin": "^11.2.0",
+    "@expo/next-adapter": "^2.1.61",
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "@zeit/next-source-maps": "^0.0.3",
     "typescript": "~4.0.0"
   },
   "private": true
