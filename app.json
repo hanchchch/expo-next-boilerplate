@@ -4,9 +4,9 @@
     "slug": "rn-test",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/src/public/icon.png",
+    "icon": "./src/public/assets/icon.png",
     "splash": {
-      "image": "./assets/src/public/splash.png",
+      "image": "./src/public/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
