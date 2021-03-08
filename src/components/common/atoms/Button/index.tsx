@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './styles';
 import { TouchableOpacity, Text } from 'react-native';
 
 interface ButtonProps {
